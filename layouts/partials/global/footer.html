@@ -1,25 +1,26 @@
+{{ partial "global/cta" . }}
 <footer>
     <div class="uk-section">
         <div class="uk-container">
             <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
                 <div>
                     <h1 class="uk-text-bold uk-text-large"><span class="uk-white">Landscaping <span class="accent">Tecpoyotl Inc.</span></span></h1>
-                    <p class="uk-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quisquam accusamus sapiente aspernatur, tempora libero assumenda unde voluptas adipisci totam amet vero, aliquid animi perferendis reprehenderit. Inventore ipsum nemo perferendis!</p>
+                    <p class="uk-light">{{ .Site.Data.appearance.footer.footer_bio }}</p>
                 </div>
                 <div>
                     <h1 class="uk-text-bold uk-text-large uk-white">Contact</h1>
                     <ul class="uk-list">
                         <li><a href="" class="uk-light"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">luis@landscapeTecpoyotl.com</span></a></li>
-                        <li><a href="/faq" class="uk-light"><span href="#" uk-icon="icon: phone" class="uk-margin-small-right"></span><span class="uk-text-middle">555-555-5555</span></a></li>
+                        <li><a href="{{ .Site.Data.profile.contact_information.phone }}" class="uk-light"><span href="#" uk-icon="icon: phone" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
                     </ul>
                 </div>
                 <div>
                     <h1 class="uk-text-bold uk-text-large uk-white">Quick Links</h1>
                     <ul class="uk-list">
-                        <li><a href="" class="uk-light">Services</a></li>
-                        <li><a href="" class="uk-light">Contact</a></li>
-                        <li><a href="" class="uk-light">Get an Estimate</a></li>
-                        <li><a href="" class="uk-light">About</a></li>
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.footer }}
+                        <li><a href="{{ .URL | absURL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>

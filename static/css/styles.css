@@ -49,7 +49,8 @@ a.uk-button.uk-button-secondary {
     padding-bottom: 8px;
 }
 
-a.uk-button.uk-button-primary {
+a.uk-button.uk-button-primary,
+button.uk-button.uk-button-primary {
     background: #6CB00B;
     border-radius: 50px;
     padding-top: 8px;
@@ -84,18 +85,20 @@ div.hero-form {
 input.uk-input {
     background-color: #eee;
     border-radius: 50px;
+    padding: 24px;
 }
 
 textarea.uk-textarea {
     background-color: #eee;
     border-radius: 15px;
+    padding: 24px;
 }
 
-button.uk-button {
-    border-radius: 50px;
-    background: #6CB00B;
-    transition: .3s;
-    padding: 8px;
+
+/* SERVICE */
+
+.hr-service div.uk-card-default {
+    background: #fff;
 }
 
 /* FOOTER */
