@@ -1,5 +1,4 @@
 +++
-draft = true
 image = "/uploads/nice-backyard.jpg"
 meta_description = ""
 title = "Landscaping"
