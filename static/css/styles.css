@@ -105,7 +105,7 @@ textarea.uk-textarea {
 
 @media screen and (max-width: 768px){
     div.hr-featured {
-        padding: 100px;
+        padding: 100px 20px;
     }
 }
 
