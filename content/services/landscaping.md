@@ -1,8 +1,24 @@
 +++
-image = "/uploads/nice-backyard.jpg"
+image = "/uploads/yard2.jpg"
 meta_description = ""
 title = "Landscaping"
 title_tag = ""
 
 +++
-Here at Schubert Landscaping we have a qualified design staff that can help design your outdoor dream living space. From Concept & Design, through the complete installation we are with you every step of the way. Our design team specializes in Custom Outdoor living, so let us help you design or even re-design your outdoor space.
+Maintain the landscape around your home or commercial properties. We offer general landscaping services in Orange County, San Bernardino, and Inland Empire. Landscaping Tecpoyotl has years of experience to help you make a great impression on the landscaping of your properties.
+
+Our general services for landscaping includes:
+
+* Lawn care
+* Turf Removal
+* Weed Control
+* New Lawns
+* Lighting
+* Pavers Driveway
+* Trimming
+* Planters
+* New Swimming Pools
+
+And more!
+
+Contact the team at Landscaping Tecpoyotl to get started.
