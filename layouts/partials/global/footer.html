@@ -19,7 +19,7 @@
                     <ul class="uk-list">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.footer }}
-                        <li><a href="{{ .URL | absURL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL | absURL }}" title="{{ .Title }}" class="uk-light">{{ .Name }}</a></li>
                         {{ end }}
                     </ul>
                 </div>

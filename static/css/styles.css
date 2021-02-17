@@ -101,6 +101,29 @@ textarea.uk-textarea {
     background: #fff;
 }
 
+/* HOME FEATURED */
+
+@media screen and (max-width: 768px){
+    div.hr-featured {
+        padding: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div.hr-featured {
+        height: 250px;
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1087px) {
+    div.hr-featured {
+        padding: 100px;
+        height: 250px;
+    }
+}
+
+
 /* FOOTER */
 
 footer {
