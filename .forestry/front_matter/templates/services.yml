@@ -18,6 +18,7 @@ fields:
   template: seo
   label: SEO
 pages:
+- content/services/gardening.md
 - content/services/junk-removal.md
 - content/services/landscaping.md
 - content/services/pavers.md
