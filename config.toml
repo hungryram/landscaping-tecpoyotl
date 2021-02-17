@@ -1,7 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 summaryLength = 15
+title = "My New Hugo Site"
 [[menu.footer]]
 name = "Home"
 url = "/"
+weight = 1
