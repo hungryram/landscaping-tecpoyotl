@@ -1,5 +1,5 @@
 +++
-image = "/uploads/sprinklers.jpg"
+image = "/uploads/water.jpg"
 meta_description = ""
 title = "Water Installation"
 title_tag = ""
