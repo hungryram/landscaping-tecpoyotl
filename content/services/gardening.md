@@ -1,5 +1,5 @@
 +++
-image = "/uploads/gardening2.jpg"
+image = "/uploads/garden-service.jpg"
 meta_description = ""
 title = "Gardening"
 title_tag = ""
