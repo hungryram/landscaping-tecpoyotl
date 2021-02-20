@@ -1,5 +1,5 @@
 +++
-image = "/uploads/junk-removal.jpg"
+image = "/uploads/junk.jpg"
 meta_description = ""
 title = "Junk Removal"
 title_tag = ""
