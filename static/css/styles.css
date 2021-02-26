@@ -14,6 +14,15 @@ body p {
     font-family: 'Roboto', sans-serif;
 }
 
+body a {
+    transition: .3s;
+}
+
+body a:hover {
+    color: #6CB00B;
+    transition: .3s;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
