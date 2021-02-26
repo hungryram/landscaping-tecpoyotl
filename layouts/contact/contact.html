@@ -19,16 +19,19 @@
                 <div>
                     <form action="/thank-you" class="uk-grid-small" uk-grid data-netlify="true" name="Contact Form" method="POST" data-netlify-recaptcha="true">
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Name">
+                            <input class="uk-input" type="text" placeholder="Name" name="name">
                         </div>
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Email">
+                            <input class="uk-input" type="text" placeholder="Email" name="email">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input" type="text" placeholder="Subject" name="subject">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input" type="tel" placeholder="phone" name="phone">
                         </div>
                         <div class="uk-width-1-1">
-                            <input class="uk-input" type="text" placeholder="Subject">
-                        </div>
-                        <div class="uk-width-1-1">
-                            <textarea name="" id="" cols="30" rows="8" class="uk-textarea" placeholder="Your message"></textarea>
+                            <textarea name="message" id="" cols="30" rows="8" class="uk-textarea" placeholder="Your message"></textarea>
                         </div>
                         <div class="uk-width-1-1">
                             <button class="uk-button uk-button-primary">Submit Message</button>
