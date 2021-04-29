@@ -11,8 +11,14 @@ contact_information:
   phone: 909-680-8478
   email: info@phohaplusdiamondbar.com
 search_engine_optimization:
+<<<<<<< HEAD
   title_tag: Pho Ha Plus Diamond Bar
   meta_description: 
+=======
+  title_tag: Landscaping Tecpoyotl | Hire Professional Landscaping Professionals
+  meta_description: Serving all of Orange County, Inland Empire, and San Bernardino
+    County. We focus on safety and treat your landscaping as if it were our own
+>>>>>>> ec47cdf88079f29396e95d2f3f10fbf0b35e9710
   twitter_card:
     twitter_username: ''
   facebook:
