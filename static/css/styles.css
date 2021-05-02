@@ -6,12 +6,12 @@ body h3,
 body h4,
 body h5,
 body h6 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body p {
     line-height: 1.7;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body a {
@@ -19,26 +19,27 @@ body a {
 }
 
 body a:hover {
-    color: #7D2D35;
+    color: #6CB00B;
     transition: .3s;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* OVERWRITE */
 
 .primary-svg svg {
-    color: #7D2D35;
+    color: #6CB00B;
+}
+
+div.uk-card-default {
+    background: #6CB00B;
+    border-radius: 8px;
 }
 
 .uk-white {
     color: #fff;
-}
-
-.uk-black {
-    color: #000;
 }
 
 p.hr-dark {
@@ -59,9 +60,10 @@ a.uk-button.uk-button-secondary {
 
 a.uk-button.uk-button-primary,
 button.uk-button.uk-button-primary {
-    background: #7D2D35;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background: #6CB00B;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 a:hover {
@@ -69,7 +71,7 @@ a:hover {
 }
 
 .accent {
-    color: #7D2D35;
+    color: #6CB00B
 }
 
 .uk-padding-xlarge {
@@ -79,18 +81,26 @@ a:hover {
 /* NAVBAR */
 
 ul.uk-navbar-nav>li>a {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    color: #b5b5b5;
 }
 
 /* HERO */
 
-ul.hero-slide li div {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 40px;
+div.hero-form {
+    background: white;
+    border-radius: 8 px;
+}
 
+input.uk-input {
+    background-color: #eee;
+    border-radius: 50px;
+    padding: 24px;
+}
+
+textarea.uk-textarea {
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 24px;
 }
 
 
