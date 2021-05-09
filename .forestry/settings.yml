@@ -32,9 +32,6 @@ sections:
   label: Contact
   create: all
   match: "**/*"
-- type: document
-  path: content/gallery/_index.md
-  label: Gallery
 - type: directory
   path: content/about
   label: About
