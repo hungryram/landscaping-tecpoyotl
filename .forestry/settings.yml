@@ -32,14 +32,14 @@ sections:
   label: Contact
   create: all
   match: "**/*"
+- type: document
+  path: content/gallery/_index.md
+  label: Gallery
 - type: directory
   path: content/about
   label: About
   create: all
   match: "**/*"
-- type: document
-  path: content/gallery/_index.md
-  label: Gallery
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
